@@ -16,9 +16,9 @@ use {
     solana_epoch_schedule::EpochSchedule, // Network epoch configuration
     solana_hash::Hash, // Cryptographic hash utilities
     solana_instruction::{error::InstructionError, AccountMeta},
-    // Instruction processing and error handling
+    // Instruction processing and error handling.
     solana_log_collector::{ic_msg, LogCollector},
-    // Message logging and collection during execution
+    // Message logging and collection during execution.
     solana_measure::measure::Measure, // Performance measurement utilities
     solana_pubkey::Pubkey, // Public key handling
     solana_sbpf::{
